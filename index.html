@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tick Tack Toe</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <head>
+    
+</head>
+
+<!--Start of settings -->
+<!-- Button trigger modal -->
+<br><button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#exampleModal">
+Start Game
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Pick a side</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Would you like to be Xs or Os?
+      </div>
+      <div class="modal-footer">
+        <button type="button" id="x" class="btn btn-dark" data-dismiss="modal" onClick="pickSide(this.id)">Xs</button>
+        <button type="button" data-dismiss="modal" id="o" class="btn btn-light" onClick="pickSide(this.id)">Os</button> 
+      </div>
+    </div>
+  </div>
+</div>
+<!--Start display sides-->
+<div class="container">
+<div class="row">
+    <div class="col-3 offset-3" id="user-side"></div>
+    <div class="col-3" id = "comp-side"></div>
+</div>
+</div>
+<!-- Start of game -->
+<div class="game">
+    <div id="sqr1" class="game-field"></div>
+    <div id="sqr2" class="game-field"></div>
+    <div id="sqr3" class="game-field"></div>
+    <div id="sqr4" class="game-field"></div>
+    <div id="sqr5" class="game-field"></div>
+    <div id="sqr6" class="game-field"></div>
+    <div id="sqr7" class="game-field"></div>
+    <div id="sqr8" class="game-field"></div>
+    <div id="sqr9" class="game-field"></div>
+</div>
+<!--End of game-->
+<footer class="container-fluid text-center">
+    <div class="container-fluid">
+        <a href="https://www.facebook.com/MorganGalvinPhoto/" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/morgangalvinphoto/" class="fa fa-instagram"></a>
+        <a href="https://www.freecodecamp.org/ludwigthepig" class="fa fa-free-code-camp"></a>
+    </div>
+</footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://unpkg.com/popper.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

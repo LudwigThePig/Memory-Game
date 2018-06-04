@@ -1,0 +1,87 @@
+body{
+  background-color:#36454f;
+  color:#FFF;
+  font-family:verdana;
+}
+
+
+.pig-icon{
+  background-color:#FFF;
+  border-radius:75%;
+}
+.btn-secondary{
+    margin:auto;
+    width:100%;
+    height:100px;
+}
+.modal {
+    color: black;
+}
+.game{
+  background-color: white;
+  width: 402px;
+  height: 402px;
+  margin: 50px auto;
+}
+.game-field {
+  width: 134px;
+  height: 134px;
+  display: block;
+  float: left;
+  color: #EAEAEA;
+  font-size: 6.3em;
+  padding: 1px 27px;
+}
+/*borders around elements for hash*/
+#sqr1, #sqr2, #sqr3 {
+  border-bottom: 3px solid black;
+}
+
+#sqr2 {
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+
+#sqr4, #sqr5, #sqr6 {
+  border-bottom: 3px solid black;
+}
+
+#sqr5 {
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+
+#sqr8 {
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+/*end hash */
+footer{
+  background-color:#bbb;
+    color:black;
+  border-radius:5px;
+}
+.fa {
+   padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius:5px
+}
+.fa:hover {
+ opacity:0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-free-code-camp {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
